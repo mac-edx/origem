@@ -1,1 +1,1 @@
-esta é a versao da branch main modificada
+Esta é a versão final conciliando as alterações das duas branches.
