@@ -1,0 +1,25 @@
+Cauã Macêdo do Nascimento 
+
+Todos os comandos utilizados:
+ "mkdir tarefa-branchs" 
+ "cd tarefa-branchs" 
+ "git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead" 
+ "cd curso-branchs-ifrn-ead" 
+ "git add texto.txt" 
+"git commit -m \"Adiciona arquivo texto.txt com linha inicial\"" 
+ "git checkout -b feature-1" >> comandos.txt
+ "git add texto.txt" 
+ "git commit -m \"Altera conteúdo de texto.txt na branch feature-1\"" 
+ "git checkout main" 
+ "git add texto.txt" 
+ "git commit -m \"Altera o conteúdo do texto.txt também na main\""
+ "git merge feature-1" 
+"git add texto.txt" 
+ "git commit -m \"Resolve conflito de merge entre main e feature-1\"" 
+ "git checkout -b add-comandos" 
+ "git add comandos.txt" 
+ "git commit -m \"Adiciona comandos usados e nome do autor\"" 
+ "git remote add origin-atividade <URL-do-seu-repo>" 
+ "git push origin-atividade main" 
+ "git push origin-atividade add-comandos" 
+ "git log --oneline --all --graph" 
